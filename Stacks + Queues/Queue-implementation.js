@@ -16,9 +16,9 @@ class Queue {
 		return this.first
 	}
 
-	enqueue() {
+	enqueue(value) {
 		// 先創造一個節點
-		const newNode = new Node()
+		const newNode = new Node(value)
 		// 假如本來 Queue 是空的狀況
 		if (this.length === 0) {
 			this.first = newNode
