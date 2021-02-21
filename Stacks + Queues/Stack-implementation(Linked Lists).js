@@ -28,7 +28,7 @@ class Stack {
 			this.top.next = holdingPointer
 		}
 		this.length++
-		return tihs
+		return this
 	}
 
 	pop() {
